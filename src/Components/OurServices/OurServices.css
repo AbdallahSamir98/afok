@@ -1,0 +1,211 @@
+.ourServicesText h4{
+    background: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+font-size: 3rem;
+font-weight: 700;
+line-height: 84.72px;
+text-align: center;
+
+}
+
+
+  
+  .card4 .cardHead .row  {
+    background-color:  #FEC76E;
+border-radius: 0px 0px 12px 12px;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  margin-bottom: 1rem;
+
+
+  }
+  .cardHead .row h6{
+    color: white;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+
+  }
+
+  .card4 .cardBody {
+ color: #FEC76E;
+ font-family: Inter;
+ font-size: 25px;
+ font-weight: 600;
+ line-height: 40px;
+ text-align: center;
+ 
+
+  }
+
+  .card4 .cardFooter a{
+    color: #FEC76E;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 30.26px;
+text-align: center;
+
+}
+
+
+.card1 .cardHead .row  {
+    background-color: #4C445C;
+    ;
+border-radius: 0px 0px 12px 12px;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  margin-bottom: 1rem;
+
+
+  }
+
+  .card1 .cardBody {
+    color: #4C445C;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    
+   
+     }
+     .card1 .cardFooter a{
+        color: #4C445C;
+        font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.26px;
+    text-align: center;
+    
+    }
+
+    /* card 2 */
+    
+.card2 .cardHead .row  {
+    background-color:  #F28281;
+    ;
+    ;
+border-radius: 0px 0px 12px 12px;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  margin-bottom: 1rem;
+
+
+  }
+
+  .card2 .cardBody {
+    color: #F28281;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    
+   
+     }
+     .card2 .cardFooter a{
+        color:#F28281;
+        font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.26px;
+    text-align: center;
+    
+    }
+    /* card 3 */
+
+    .card3 .cardHead .row  {
+        background-color:  #26BBE0;
+        ;
+        ;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      margin-bottom: 1rem;
+    
+    
+      }
+    
+      .card3 .cardBody {
+        color: #26BBE0;
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        
+       
+         }
+         .card3 .cardFooter a{
+            color:#26BBE0;
+            font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30.26px;
+        text-align: center;
+        
+        }
+
+        
+        /* card animation */
+
+        .card1 {
+            transform: translate(-17%, 30%); /* Apply both translateX and translateY */
+  
+            transition:0.5s all /* Add transition for transform */
+          }
+          .card2 {
+            transform: translate(15%, 20%); /* Apply both translateX and translateY */
+  
+            transition:0.5s all /* Add transition for transform */
+          }
+          .card3 {
+            transform: translate(47%, 10%); /* Apply both translateX and translateY */
+
+  
+            transition:0.5s all /* Add transition for transform */
+          }
+          .card4 {
+            transform: translateX(80%); 
+  
+            transition:0.5s all /* Add transition for transform */
+          }
+          .cards:hover .card1 ,.cards:hover .card2 ,.cards:hover .card3 ,.cards:hover .card4{
+            transform: translateX(0px); 
+            transition:1s all /* Add transition for transform */
+
+          }
+
+
+          @media (max-width: 999px) {
+            .card1,
+            .card2,
+            .card3,
+            .card4 {
+              transform: none; /* Reset transform for small screens */
+              transition: none; /* Disable transition for small screens */
+            }
+            .cards:hover .card1,
+            .cards:hover .card2,
+            .cards:hover .card3,
+            .cards:hover .card4 {
+              transform: none; /* Reset transform on hover for small screens */
+            }
+          }
+          
+          

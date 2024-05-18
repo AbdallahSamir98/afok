@@ -1,0 +1,57 @@
+.home{
+
+
+}
+
+.home h1{
+    font-family: Cairo;
+font-size: 33px;
+color: #FFFFFF;
+text-align: center;
+}
+.home h5{
+    color: #4C445C;
+    font-family: Cairo;
+font-size: 23px;
+line-height: 65.59px;
+text-align: center;
+
+
+}
+
+.homeSquare{
+    width: 150px;
+padding: 10px;
+
+text-align: center;
+}
+
+.homeSquare img{
+width: 35px;
+margin: 10px;
+}
+
+.homeSquare h6{
+    font-family: Cairo;
+font-size: 1rem;
+font-weight: 600;
+/* line-height: 28px; */
+/* text-align: center; */
+
+
+}
+
+
+/* Style for the WhatsApp icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    left: 60px;
+    z-index: 999; /* Ensure it appears on top of other content */
+  }
+  
+  .whatsapp-icon img {
+    width: 40px; 
+    height: auto;
+  }
+  

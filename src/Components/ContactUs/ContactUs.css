@@ -1,0 +1,89 @@
+.contactDetails h6{
+    color: #4C445C;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.contactAllDetails {
+    color: #4C445C;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+li
+{
+    list-style: none;
+}
+
+.contactCard h5{
+    font-family: Inter;
+    font-size: 25px;
+   
+    text-align: center;
+    color: #4C445C;
+    
+}
+
+.formData .mobileLabel{
+    content: "";
+    position: absolute;
+    bottom: 70%;
+    right: 7%;
+    background-color: rgb(255, 255, 255);
+    color: #4C445C;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+width: 25%;
+}
+
+.textAreaLabel{
+    content: "";
+    position: absolute;
+    bottom: 88%;
+    right: 7%;
+    background-color: rgb(255, 255, 255);
+    color: #4C445C;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+width: 25%;
+}
+.formData input ,.formData textarea{
+    border: 3px solid;
+    border-image: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+    border-image-slice: 1;
+width: 90%;
+padding: 15px;
+font-family: cairo;
+font-size: 20px;
+font-weight: 500;
+color: #4C445C;
+
+}
+.formData{
+margin-top: 5rem;
+
+}
+
+input:focus ,textarea:focus{
+    outline: none;
+
+}
+
+
+
+.contactCardPostion::after{
+    content: "";
+    position: absolute;
+    right: -4rem;
+    width: 6%;
+    height: 70%;
+    top: 9%;
+    background-color: rgb(255, 255, 255);
+}

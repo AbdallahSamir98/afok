@@ -1,0 +1,48 @@
+.logo{
+    width: 100px;
+    
+    
+}
+.nav-link span{
+  
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 46.85px;
+    text-align: left;
+    text-decoration: none;
+    color:#4C445C !important;
+    margin-left:25px ;
+
+    
+}
+
+
+
+  .navButton{
+    background: linear-gradient(181.36deg, #4C445C 1.16%, #F28281 98.84%);
+    width: 170px;
+    height: 47px;
+    top: 45px;
+    left: 190px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+
+
+  }
+  .navButton a{
+    color: #FFFFFF;
+    ;
+    font-family: Cairo;
+font-size: 18px;
+font-weight: 700;
+line-height: 46.85px;
+text-align: left;
+text-decoration: none;
+
+
+  }
+
+ 
+  

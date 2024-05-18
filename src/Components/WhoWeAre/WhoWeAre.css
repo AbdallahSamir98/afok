@@ -1,0 +1,105 @@
+.whoWeAre{
+}
+
+.weAre {
+    background: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+font-size: 3.5rem;
+font-weight: 700;
+/* text-align: right; */
+
+}
+.weAreFuture{
+    background: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+
+
+.afok{
+    font-family: Inter;
+    font-size: 30px;
+    line-height: 48px;
+    color: #4C445C;
+
+}
+
+.afok span {
+    background: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 10px;
+}
+
+
+
+#myTabs .nav-link {
+    border: none;
+   color: #4C445C8C;
+
+
+    font-family: Inter;
+font-size: 30px;
+font-weight: 600;
+line-height: 60px;
+padding:0px 4rem;
+
+    
+}  
+  
+  #myTabs .nav-link.active {
+    background: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  
+  }
+ 
+#myTabs .nav-link.active::after {
+    content: '';
+    display: block;
+    /* position: absolute; */
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    background: linear-gradient(359.63deg, #4C445C 0.29%, #F28281 85.87%);
+  }
+
+
+  .nav-tabs {
+    border-bottom: 3px solid transparent !important; 
+    border-image: url('images/Rectangle 13.png') 30 round; 
+  }
+  
+  
+
+  .afok-ul{
+    font-family: Inter;
+font-size: 25px;
+font-weight: 500;
+line-height: 33px;
+text-align: right;
+color: #4C445C;
+
+  }
+
+
+  .weAreInformation{
+    background: linear-gradient(to top, #4C445C, #F28281);
+    width: 100%;
+  }
+  .weAreData p{
+    font-family: Inter;
+    font-size: 35px;
+    /* font-weight: 500; */
+    /* line-height: 54.46px; */
+    color: #FFFFFF;
+
+    
+  }
