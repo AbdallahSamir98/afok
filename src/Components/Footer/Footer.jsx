@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="container-fluid mt-5">
      <img src="images/Rectangle 23.png" className='w-100 ' alt="" />   
 
-        <div className="row my-5 d-flex align-items-center">
+        <div className="row my-5 d-flex align-items-center justify-content-evenly">
           <div className="col-md-2 text-center">
 
             <img src="images/افق-2 2.png" alt="" className=' '  />
