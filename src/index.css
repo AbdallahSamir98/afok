@@ -11,10 +11,9 @@ body {
 }
 
 .content {
-  padding-top: 120px; /* Adjust based on NavBar height */
+  padding-top: 77px; /* Adjust based on NavBar height */
   
 }
 :root{
   background-color: white;
 }
-
